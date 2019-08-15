@@ -17,12 +17,28 @@
   color: #61dafb;
 }
 
-.houses-ui-card {
-  height: 200px !important;
-  width: 100% !important;
+.houses-list-container {
+  border: 2px solid green;
+  width: 250%;
+  margin: 0 auto;
+  .title {
+    font-size: 5rem;
+    padding: 2rem;
+  }
 }
 
-.houses-header {
-  width: 300% !important;
-  color: red !important;
+.ui-cards {
+  border: 2px solid red;
+  width: 250%;
+  background-color: tan;
+}
+
+.header {
+  color: red;
+  border: 2px solid yellow;
+}
+
+.descriptions {
+  border: 2px solid pink;
+  color: black;
 }

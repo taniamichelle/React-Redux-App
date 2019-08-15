@@ -4,12 +4,12 @@ import { Card } from 'semantic-ui-react';
 const Houses = props => {
     return (
         <Card>
-            <div className='houses-ui-card'>
-                <div className='content'>
-                    <div className='header'>{props.house.name}</div>
-                    <div className='ui sub header'>
-                        <h4>{props.house.currentLord}</h4>
-                        <div className='ui small feed'>
+            <div className='ui-cards'>
+                <div className='ui-card'>
+                    <div className='content'>
+                        <div className='header'>{props.house.name}</div>
+                        <div className='description'>
+                            <p>{props.house.currentLord}</p>
                             <p>{props.house.region}</p>
                             <p>{props.house.coatOfArms}</p>
                             <p>{props.house.words}</p>
@@ -20,7 +20,7 @@ const Houses = props => {
                     </div>
                 </div>
             </div>
-        </Card>
+        </Card >
     );
 };
 

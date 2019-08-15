@@ -7,7 +7,7 @@ import Houses from '../components/Houses';
 const HousesList = props => {
     return (
         <div className='houses-list-container'>
-            <h1>HOUSES</h1>
+            <div className='title'>HOUSES</div>
             <button className='get-data-btn'
                 onClick={props.getData}>
                 {props.isLoading ? (
